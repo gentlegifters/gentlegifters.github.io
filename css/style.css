@@ -1,13 +1,23 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 8px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 16px;
+  margin-bottom: 48px;
 }
 
 .main-image {
   text-align: center;
-  width: 100%;
+  width: 20%;
 }
 
 .main-image img {
   width: 100%;
+  border-radius: 50%;
 }
